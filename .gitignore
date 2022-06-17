@@ -1,0 +1,31 @@
+ Öncelikle elimizde **[22,27,16,2,18,6]** dizisi var. 
+
+>Insertion Sort aşamaları aşağıdaki gibi olmalıdır:
+
+- **[22,27,16,2,18,6]**
+- **[2,27,16,22,18,6]**
+- **[2,6,16,22,18,27]**
+- **[2,6,16,18,22,27]**
+
+İlk önce dizinimizdeki en küçük elemanı en başa alıyoruz ve oradaki elemanla yerini değiştiriyoruz. Ardından küçükten büyüğe doğru bu şekilde son elemana gelene kadar devam ediyoruz.
+
+> Big-O gösterimi şu şekildedir:
+
+O=n^2 dir. n=6 çünkü dizinde 6 eleman var. 6^2 =36 sonucuna ulaşırız.
+
+> Time Complexity 
+
+**Average case:** Aradığımız sayının ortada olması
+**Worst case:** Aradığımız sayının sonda olması
+**Best case:** Aradığımız sayının dizinin en başında olması
+
+> Dizi sıralandıktan sonra '18' sayısı hangi case kapsamına girer?
+
+Average case kapsamına girer. Çünkü '27' worst case, '2' ise best case olur. Diğer elemanlar bu sayıların arasında olduğu için average case olur.
+
+> [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımı nedir?
+
+- [7,3,5,8,2,9,4,15,6]
+- [2,3,5,8,7,9,4,15,6]
+- [2,3,4,8,7,9,5,15,6]
+- [2,3,4,5,7,9,8,15,6]
